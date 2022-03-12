@@ -15,7 +15,7 @@ int main(void)
 	for (l = 0; l < 26; l++)
 	{
 		putchar(alp[i]);
-		putchar(ALP[L]);
+		putchar(ALP[l]);
 	}
 	putchar('\n');
 	return (0);
