@@ -7,15 +7,15 @@
  */
 void print_alphabet_x10(void)
 {
-	char alp[26] = "abcdefghijklmnopqrstuvwxyz";
-	int i, l;
+	int i;
+	int l;
 
-	for (i = 0; i < 26; i++)
+	for (i = 0; i <= 9; i++)
 	{
-		_putchar(alp[26]);
-	}
-	for (l = i ^ 10)
-	{
-		_putchar(('l = i ^ 10\n'));
+		for (l = 'a'; l <= 'z'; l++)
+		{
+			_putchar(l)
+		}
+		_putchar('\n');
 	}
 }
