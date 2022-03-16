@@ -1,3 +1,5 @@
+#include <stdio.h>
+#include <stdlib.h>
 #include "main.h"
 
 /**
@@ -7,14 +9,14 @@
  */
 void print_alphabet_x10(void)
 {
-	int i;
-	int l;
+	int x;
+	int y;
 
-	for (i = 0; i <= 9; i++)
+	for (x = 0; x <= 9; x++)
 	{
-		for (l = 'a'; l <= 'z'; l++)
+		for (y = 'a'; y <= 'z'; y++)
 		{
-			_putchar(l);
+			_putchar(y);
 		}
 		_putchar('\n');
 	}
