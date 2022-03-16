@@ -2,18 +2,19 @@
 
 /**
  * print_sign - Determines the input number sign
- * if its greater, equal or less than zero
+ * if its greater, equal or less than zero.
  *
- * @n: The input number as an integer
+ * @n: The input number as an integer.
  *
- * Return: 1 is greater than zero.0, is zero
- * -1 is less than zero
+ * Return: 1 is greater than zero.0, is zero,
+ * -1 is less than zero.
  */
 int print_sign(int n)
 {
 	if (n > 0)
 	{
 		_putchar(43);
+		return (1);
 	}
 	else if (n < 0)
 	{
