@@ -14,8 +14,8 @@ void print_alphabet_x10(void)
 	{
 		_putchar(alp[26]);
 	}
-	for (l = i * *10)
+	for (l = i ^ 10)
 	{
-		_putchar(('l = i * *10\n'));
+		_putchar(('l = i ^ 10\n'));
 	}
 }
