@@ -7,14 +7,12 @@
  */
 void print_numbers(void)
 {
-	char num[9] = "0123456789";
 	int i;
 
 	for (i = 0; i <= 9; i++)
 	{
-		_putchar(num[i]);
+		_putchar(n + '0');
 	}
 	_putchar('\n');
-	return (0);
 
 }
