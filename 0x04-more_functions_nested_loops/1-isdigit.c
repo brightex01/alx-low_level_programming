@@ -7,13 +7,14 @@
  */
 int _isdigit(int c)
 {
-	c = 9;
-
-	for (c = 48; c < 57; c++)
+	if c = 0
 	{
 		printf("%d\n", c);
 		return (1);
 	}
-	else
+	else if c = a
+	{
+		printf("%d\n", c);
 		return (0);
+	}
 }
