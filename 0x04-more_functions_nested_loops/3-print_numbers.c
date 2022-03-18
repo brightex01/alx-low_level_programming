@@ -10,7 +10,7 @@ void print_numbers(void)
 	int i;
 	char num[10] = "0123456789";
 
-	for (i = 0; i < 10; i++)
+	for (i = 0; i < <= 9; i++)
 	{
 		_putchar(num[10]);
 	}
