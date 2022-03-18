@@ -7,14 +7,14 @@
  */
 int _isdigit(int c)
 {
-	if c = 0
+	if c = '0'
 	{
-		printf("%d\n", c);
+		printf("%c: %d\n", c);
 		return (1);
 	}
-	else if c = a
+	else if c = 'a'
 	{
-		printf("%d\n", c);
+		printf("%c: %d\n", c);
 		return (0);
 	}
 }
