@@ -31,7 +31,7 @@ void print_f(va_list list)
  * @list: arguments
  * Return: void
  */
-void print_s(va_list list)
+void print_str(va_list list)
 {
 	char *str = va_arg(list, char *);
 
