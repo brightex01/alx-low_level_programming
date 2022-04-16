@@ -1,49 +1,5 @@
 #include "variadic_functions.h"
 /**
- * print_c - Prints char
- * @list: arguments
- * Return: void
- */
-void print_c(va_list list)
-{
-	printf("%c", (char)va_arg(list, int));
-}
-/**
- * print_d - Prints digit
- * @list: arguments
- * Return: void
- */
-void print_d(va_list list)
-{
-	printf("%d", va_arg(list, int));
-}
-/**
- * print_f - Prints float
- * @list: arguments
- * Return: void
- */
-void print_f(va_list list)
-{
-	printf("%f", (float)va_arg(list, double));
-}
-/**
- * print_str - Prints str
- * @list: arguments
- * Return: void
- */
-void print_str(va_list list)
-{
-	char *str = va_arg(list, char *);
-
-	if (str)
-	{
-		printf("%s", str);
-		return;
-	}
-	printf("(nil)");
-}
-
-/**
  * print_all - Prints anything
  * @format: format to print
  * Return: void
@@ -79,4 +35,3 @@ void print_all(const char * const format, ...)
 	printf("\n");
 	va_end(list);
 }
-/* hello Lau */
