@@ -24,7 +24,7 @@ void print_all(const char * const format, ...)
 		{
 			if (format[i] == filt[j].fmt)
 			{
-				printf("%s", separator);
+				_putchar("%s", separator);
 				filt[j].f(list);
 				separator = ", ";
 			}
@@ -32,6 +32,6 @@ void print_all(const char * const format, ...)
 		}
 		i++;
 	}
-	printf("\n");
+	_putchar("\n");
 	va_end(list);
 }
